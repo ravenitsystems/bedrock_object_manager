@@ -1,0 +1,19 @@
+{
+  "name": "ravenitsystems/bedrock_object_manager",
+  "description": "A package to manage object creation and direct injection",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nicholas Ashley",
+      "email": "ravenitsystems@outlook.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "ravenitsystems\\bedrock_object_manager\\": "src/"
+    }
+  },
+  "require": {}
+}
