@@ -122,6 +122,7 @@ class Storage implements IStorage
     {
         if (is_string($instance)) {
             $this->instance = $instance == '' ? 'default' : $instance;
+            $this->module = 'default';
             $this->check_internal_structure();
         }
         return $this->instance;
